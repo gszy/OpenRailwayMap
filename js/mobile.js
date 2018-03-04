@@ -20,7 +20,7 @@ window.openrailwaymap = {
 // main function, creates map and layers, controls other functions
 function createMap(embed)
 {
-	getRequest(window.openrailwaymap.root + "/locales/" + langcodes[params['lang']] + "/LC_MESSAGES/messages.json", function(response)
+	getRequest(window.openrailwaymap.root + "/locales/" + getUserLang() + "/LC_MESSAGES/messages.json", function(response)
 	{
 		window.openrailwaymap.translations = JSON.parse(response);
 
