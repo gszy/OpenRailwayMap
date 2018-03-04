@@ -9,6 +9,10 @@ See http://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 // returns the lang-region-code that fits the best to the user
 function getUserLang()
 {
+	// override browser settings when language is set in url
+	if (window.openrailwaymap.availableTranslations.hasOwnProperty(params['lang']))
+		return window.openrailwaymap.availableTranslations[params['lang']];
+
 	var lang = navigator.language || navigator.userLanguage || 'en-GB';
 	var languages = navigator.languages || [lang];
 

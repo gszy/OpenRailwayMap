@@ -250,6 +250,7 @@
 				else
 					echo "null,\n";
 			echo "zoom : " . (isValidZoom('zoom') ? ($_GET['zoom']) : ("null")) . ",\n";
+			echo "lang : " . (isset($_GET['lang']) ? ("'".$_GET['lang']."'") : ("null")) . ",\n";
 			echo "offset : " . (isValidOffset('offset') ? ($_GET['offset']) : ("null")) . ",\n";
 			echo "searchquery : " . (isset($_GET['q']) ? (json_encode($_GET['q'])) : ("''")) . ",\n";
 			echo "ref : " . (isset($_GET['ref']) ? (json_encode($_GET['ref'])) : ("null")) . ",\n";
