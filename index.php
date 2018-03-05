@@ -94,7 +94,7 @@
 		<meta name="twitter:site" content="@openrailwaymap" />
 		<meta name="twitter:title" content="OpenRailwayMap" />
 		<meta name="twitter:description" content="OpenRailwayMap - An OpenStreetMap-based project for creating a map of the world&amp;#39;s railway infrastructure." />
-		<meta name="twitter:url" content="http://www.openrailwaymap.org/">
+		<meta name="twitter:url" content="https://www.openrailwaymap.org/">
 		<meta name="twitter:image" content="img/openrailwaymap-310.png" />
 	</head>
 	<body onload="createMap(false);">
