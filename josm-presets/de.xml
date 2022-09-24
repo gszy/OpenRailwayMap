@@ -78,20 +78,20 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 	</chunk>
 
 	<group name="OpenRailwayMap Infrastructure DE+AT" de.name="OpenRailwayMap Infrastruktur DE+AT" icon="signals.png">
-		<item de.name="Allgemeine Angaben" name="General Information" icon="rail.png" type="way">
+		<item name="General Information" de.name="Allgemeine Angaben" icon="rail.png" type="way">
 			<combo key="railway" text="Type of Track" de.text="Art des Gleises">
 				<list_entry value="rail" display_value="Heavy Railway" de.display_value="Vollbahn" match="keyvalue!" />
-				<list_entry value="tram" display_value="Tram" de.display_value="Straßenbahn" de.short_description="Ebenerdig oder teilweise unterirdisch verlegte Straßenbahngleise oder straßenbahnähnlich verlegte Stadtbahnstrecken" short_description="Trams and underground trams" match="keyvalue!" />
-				<list_entry value="light_rail" display_value="Light rail" de.display_value="Stadt-/Schnellbahn" de.short_description="Stadtbahnen und straßenbahnähnliche Untergrund- oder Überlandbahnen mit völliger Trennung vom restlichen Straßenverkehr" short_description="Light rail tracks which may run under- or overground, usually separated from car traffic" match="keyvalue!" />
-				<list_entry value="subway" display_value="Subway" de.display_value="U-Bahn" de.short_description="Unterirdisch verlegte Stadt- und Schnellbahnen, teilweise auch oberirdischer Verlauf möglich" short_description="Subway tracks; may run overground, but are separated from car traffic" match="keyvalue!" />
-				<list_entry value="narrow_gauge" display_value="Narrow gauge" de.display_value="Schmalspurbahn" de.short_description="Schmalspurgleise sind Gleise mit einer Spurweite unter der Normalspurweite von 1435 mm" short_description="Narrow gauge tracks are tracks with a gauge lower than 1435 mm" match="keyvalue!" />
-				<list_entry value="preserved" display_value="Preserved railway" de.display_value="Erhaltene Strecke" de.short_description="Strecken ohne regulären Betrieb, die wegen ihres historischen Charakters bewahrt werden sollen, z. B. Museumsbahnen oder Draisinenstrecken" short_description="A track without regular operation which is preserved for heritage trains or trolley routes" match="keyvalue!" />
-				<list_entry value="miniature" display_value="Miniature railway" de.display_value="Miniatur-/Parkbahn" de.short_description="Parkeisenbahnen und vergleichbare, in der Regel touristisch genutzte, Schmalspurbahnen bis etwa 600 mm Spurweite" short_description="Miniature Railway which is usually used for tourists and leisure, gauge up to 600 mm" match="keyvalue!" />
-				<list_entry value="proposed" display_value="Proposed" de.display_value="In Planung" de.short_description="Parkeisenbahnen und vergleichbare, in der Regel touristisch genutzte, Schmalspurbahnen bis etwa 600 mm Spurweite" short_description="A planned track, still in the design phase (no construction yet)" match="keyvalue!" />
-				<list_entry value="construction" display_value="Under construction" de.display_value="In Bau" de.short_description="Ein Gleis im Bau, das noch nicht für den Fahrbetrieb genutzt werden kann" short_description="A track under construction which is not ready for operation" match="keyvalue!" />
-				<list_entry value="disused" display_value="Disused railway" de.display_value="Stillgelegte Strecke" de.short_description="Ein Gleis, das zwar noch vorhanden ist und jederzeit wieder genutzt werden könnte, im Moment aber nicht mehr in Betrieb ist" short_description="The track is preserved (can still be seen) but is no longer in use and possibly overgrown" match="keyvalue!" />
-				<list_entry value="abandoned" display_value="Abandoned railway" de.display_value="Abgebaute Strecke" de.short_description="Ein Gleis, das entfernt wurde. Das Gleisbett ist weiterhin vorhanden und der Streckenverlauf ist weiterhin sichtbar" short_description="A tracks whose rails has been dismounted but whose train path and ballast is still visible on ground" match="keyvalue!" />
-				<list_entry value="razed" display_value="Razed railway" de.display_value="Überbaute Strecke" de.short_description="Ein ehemaliges Gleis, dessen Verlauf heute durch Überbauung o.ä. nur noch zu erahnen ist" short_description="Overbuilt track which could only be seen if you know where it is" match="keyvalue!" />
+				<list_entry value="tram" display_value="Tram" de.display_value="Straßenbahn" short_description="Trams and underground trams" de.short_description="Ebenerdig oder teilweise unterirdisch verlegte Straßenbahngleise oder straßenbahnähnlich verlegte Stadtbahnstrecken" match="keyvalue!" />
+				<list_entry value="light_rail" display_value="Light rail" de.display_value="Stadt-/Schnellbahn" short_description="Light rail tracks which may run under- or overground, usually separated from car traffic" de.short_description="Stadtbahnen und straßenbahnähnliche Untergrund- oder Überlandbahnen mit völliger Trennung vom restlichen Straßenverkehr" match="keyvalue!" />
+				<list_entry value="subway" display_value="Subway" de.display_value="U-Bahn" short_description="Subway tracks; may run overground, but are separated from car traffic" de.short_description="Unterirdisch verlegte Stadt- und Schnellbahnen, teilweise auch oberirdischer Verlauf möglich" match="keyvalue!" />
+				<list_entry value="narrow_gauge" display_value="Narrow gauge" de.display_value="Schmalspurbahn" short_description="Narrow gauge tracks are tracks with a gauge lower than 1435 mm" de.short_description="Schmalspurgleise sind Gleise mit einer Spurweite unter der Normalspurweite von 1435 mm" match="keyvalue!" />
+				<list_entry value="preserved" display_value="Preserved railway" de.display_value="Erhaltene Strecke" short_description="A track without regular operation which is preserved for heritage trains or trolley routes" de.short_description="Strecken ohne regulären Betrieb, die wegen ihres historischen Charakters bewahrt werden sollen, z. B. Museumsbahnen oder Draisinenstrecken" match="keyvalue!" />
+				<list_entry value="miniature" display_value="Miniature railway" de.display_value="Miniatur-/Parkbahn" short_description="Miniature Railway which is usually used for tourists and leisure, gauge up to 600 mm" de.short_description="Parkeisenbahnen und vergleichbare, in der Regel touristisch genutzte, Schmalspurbahnen bis etwa 600 mm Spurweite" match="keyvalue!" />
+				<list_entry value="proposed" display_value="Proposed" de.display_value="In Planung" short_description="A planned track, still in the design phase (no construction yet)" de.short_description="Parkeisenbahnen und vergleichbare, in der Regel touristisch genutzte, Schmalspurbahnen bis etwa 600 mm Spurweite" match="keyvalue!" />
+				<list_entry value="construction" display_value="Under construction" de.display_value="In Bau" short_description="A track under construction which is not ready for operation" de.short_description="Ein Gleis im Bau, das noch nicht für den Fahrbetrieb genutzt werden kann" match="keyvalue!" />
+				<list_entry value="disused" display_value="Disused railway" de.display_value="Stillgelegte Strecke" short_description="The track is preserved (can still be seen) but is no longer in use and possibly overgrown" de.short_description="Ein Gleis, das zwar noch vorhanden ist und jederzeit wieder genutzt werden könnte, im Moment aber nicht mehr in Betrieb ist" match="keyvalue!" />
+				<list_entry value="abandoned" display_value="Abandoned railway" de.display_value="Abgebaute Strecke" short_description="A tracks whose rails has been dismounted but whose train path and ballast is still visible on ground" de.short_description="Ein Gleis, das entfernt wurde. Das Gleisbett ist weiterhin vorhanden und der Streckenverlauf ist weiterhin sichtbar" match="keyvalue!" />
+				<list_entry value="razed" display_value="Razed railway" de.display_value="Überbaute Strecke" short_description="Overbuilt track which could only be seen if you know where it is" de.short_description="Ein ehemaliges Gleis, dessen Verlauf heute durch Überbauung o.ä. nur noch zu erahnen ist" match="keyvalue!" />
 			</combo>
 			<label text="If the track is not in use (i.e. proposed, under construction etc.), please also fill out"
 				de.text="Fall das Gleis nicht in Betrieb ist (z. B. geplant, in Bau usw.), bitte auch folgende Vorlage ausfüllen:"
@@ -109,8 +109,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				text="Traffic mode"
 				de.text="Verkehrsart"
 				values="mixed,passenger,freight"
-				de.display_values="Gemischt,Personenverkehr,Güterverkehr"
 				display_values="mixed,passenger,freight"
+				de.display_values="Gemischt,Personenverkehr,Güterverkehr"
 				/>
 			<combo key="railway:preferred_direction" text="Direction of use (depends on direction of OSM way)" de.text="Regelfahrtrichtung (abhängig von Richtung des OSM-Ways)">
 				<list_entry value="forward" display_value="forward (in the same direction as the OSM way)" de.display_value="In Wegrichtung" short_description="Das Gleis wird üblicherweise in die Richtung befahren, in die der OSM-Way führt. Nur für mehrgleisige Strecken." />
@@ -128,7 +128,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 			<preset_link preset_name="Track System, Line Routeing" />
 		</item>
 		<group name="Track Usage" de.name="Gleisnutzung" icon="rail.png">
-			<item de.name="Durchgehendes Hauptgleis" name="Main Track" icon="rail.png" type="way">
+			<item name="Main Track" de.name="Durchgehendes Hauptgleis" icon="rail.png" type="way">
 				<label text="Don't use this preset for industrial railway lines (harbours, mines, large factories) and military lines."
 					de.text="Nicht für Hafen-, Bergwerks-, Industrie- und Militärbahnen verwenden." />
 				<text key="name"
@@ -144,13 +144,13 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					de.text="Gleisnummer (im Bahnhof)"
 					/>
 				<combo key="usage" text="Usage" de.text="Nutzung">
-					<list_entry value="main" de.display_value="Hauptbahn" display_value="main line" de.short_description="Strecke mit übergeordneter Bedeutung; meist zweigleisig, meist elektrifiziert, in der Regel zumindest abschnittsweise mit mehr als 100 km/h befahrbar" short_description="An important line; often double tracks, electrified; usually more than 100 km/h"
+					<list_entry value="main" display_value="main line" de.display_value="Hauptbahn" short_description="An important line; often double tracks, electrified; usually more than 100 km/h" de.short_description="Strecke mit übergeordneter Bedeutung; meist zweigleisig, meist elektrifiziert, in der Regel zumindest abschnittsweise mit mehr als 100 km/h befahrbar"
 					match="keyvalue!" />
-					<list_entry value="branch" de.display_value="Nebenbahn" display_value="branch line" de.short_description="Strecke mit untergeordneter Bedeutung; oft nicht elektrifiziert, oft eingleisig. Keinesfalls mit mehr als 100 km/h befahrbar." short_description="less important line; often single-tracked; not electrified; less than 100 km/h"
+					<list_entry value="branch" display_value="branch line" de.display_value="Nebenbahn" short_description="less important line; often single-tracked; not electrified; less than 100 km/h" de.short_description="Strecke mit untergeordneter Bedeutung; oft nicht elektrifiziert, oft eingleisig. Keinesfalls mit mehr als 100 km/h befahrbar."
 					match="keyvalue!" />
-					<list_entry value="industrial" de.display_value="Industriebahn" display_value="industrial/mine railway" de.short_description="Eine Strecke, die ausschließlich dem Güterverkehr dient und in der Regel Eigentum eines Industrieunternehmens ist. Meist nur innerhalb von Hafengebieten, Industrieanlagen, Tagebauen." short_description="A line only used for freight trains inside industrial areas or mines." />
-					<list_entry value="military" de.display_value="Militärbahn" display_value="military railway" de.short_description="Eine Strecke, die ausschließlich dem Militärverkehr dient. Meistens Strecken zwischen normalen Bahnstrecken und Munitionsdepots oder Truppenübungsplätzen." short_description="A line only used by military trains" />
-					<list_entry value="tourism" de.display_value="Tourismusbahn" display_value="tourism" de.short_description="Eine Strecke, die ausschließlich touristischen Zwecken dient, z. B. Museumsstrecken oder Draisinenbahnen." />
+					<list_entry value="industrial" display_value="industrial/mine railway" de.display_value="Industriebahn" short_description="A line only used for freight trains inside industrial areas or mines." de.short_description="Eine Strecke, die ausschließlich dem Güterverkehr dient und in der Regel Eigentum eines Industrieunternehmens ist. Meist nur innerhalb von Hafengebieten, Industrieanlagen, Tagebauen." />
+					<list_entry value="military" display_value="military railway" de.display_value="Militärbahn" short_description="A line only used by military trains" de.short_description="Eine Strecke, die ausschließlich dem Militärverkehr dient. Meistens Strecken zwischen normalen Bahnstrecken und Munitionsdepots oder Truppenübungsplätzen." />
+					<list_entry value="tourism" display_value="tourism" de.display_value="Tourismusbahn" de.short_description="Eine Strecke, die ausschließlich touristischen Zwecken dient, z. B. Museumsstrecken oder Draisinenbahnen." />
 					<list_entry value="test" display_value="test" de.display_value="Teststrecke" short_description="Eine Strecke, auf der neue Schienenfahrzeuge getestet werden." />
 				</combo>
 				<key key="service" value="" />
@@ -159,7 +159,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					de.text="Hochgeschwindigkeitsstrecke (~ >200 km/h)"
 					/>
 			</item>
-			<item de.name="Hauptgleis" name="Siding Track" icon="siding-32.png" type="way">
+			<item name="Siding Track" de.name="Hauptgleis" icon="siding-32.png" type="way">
 				<text key="railway:track_ref"
 					text="Track ref (inside station)"
 					de.text="Gleisnummer (im Bahnhof)"
@@ -168,16 +168,16 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				<combo key="usage" text="Type of railway infrastructure" de.text="Streckenart" editable="false" >
 					<list_entry
 						value="industrial"
-						de.display_value="Industriebahn"
 						display_value="industrial/mine railway"
-						de.short_description="Eine Strecke, die ausschließlich dem Güterverkehr dient und in der Regel Eigentum eines Industrieunternehmens ist. Meist nur innerhalb von Hafengebieten, Industrieanlagen, Tagebauen."
-						short_description="A line only used for freight trains inside industrial areas or mines." />
+						de.display_value="Industriebahn"
+						short_description="A line only used for freight trains inside industrial areas or mines."
+						de.short_description="Eine Strecke, die ausschließlich dem Güterverkehr dient und in der Regel Eigentum eines Industrieunternehmens ist. Meist nur innerhalb von Hafengebieten, Industrieanlagen, Tagebauen." />
 					<list_entry
 						value="military"
-						de.display_value="Militärbahn"
 						display_value="military railway"
-						de.short_description="Eine Strecke, die ausschließlich dem Militärverkehr dient. Meistens Strecken zwischen normalen Bahnstrecken und Munitionsdepots oder Truppenübungsplätzen."
-						short_description="A line only used by military trains" />
+						de.display_value="Militärbahn"
+						short_description="A line only used by military trains"
+						de.short_description="Eine Strecke, die ausschließlich dem Militärverkehr dient. Meistens Strecken zwischen normalen Bahnstrecken und Munitionsdepots oder Truppenübungsplätzen." />
 					<!-- value=" " is a workaround, see https://josm.openstreetmap.de/ticket/12160 -->
 					<list_entry
 						value=" "
@@ -190,21 +190,21 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				<combo key="service" text="Purpose" de.text="Zweck" editable="false" >
 					<list_entry
 						value="siding"
-						de.display_value="Hauptgleis"
 						display_value="siding track"
-						de.short_description="Gleise für Überholungen und Zugkreuzungen. Hauptsignale vorhanden."
+						de.display_value="Hauptgleis"
 						short_description="Track is used by trains to be overtaken or at stations or to wait meeting a train of the other direction. There are main signals."
+						de.short_description="Gleise für Überholungen und Zugkreuzungen. Hauptsignale vorhanden."
 						match="keyvalue" />
 					<list_entry
 						value="crossover"
-						de.display_value="Überleitgleis"
 						display_value="crossover track"
-						de.short_description="verbindet zwei durchgehende Hauptgleise"
+						de.display_value="Überleitgleis"
 						short_description="connects two main tracks"
+						de.short_description="verbindet zwei durchgehende Hauptgleise"
 						match="keyvalue" />
 				</combo>
 			</item>
-			<item de.name="Nebengleise" name="Yard and Spur Track" icon="spur-25.png" type="way">
+			<item name="Yard and Spur Track" de.name="Nebengleise" icon="spur-25.png" type="way">
 				<text key="railway:track_ref"
 					text="Track ref (inside station)"
 					de.text="Gleisnummer (im Bahnhof)"
@@ -213,16 +213,16 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				<combo key="usage" text="Type of railway infrastructure" de.text="Streckenart" editable="false" >
 					<list_entry
 						value="industrial"
-						de.display_value="Industriebahn"
 						display_value="industrial/mine railway"
-						de.short_description="Eine Strecke, die ausschließlich dem Güterverkehr dient und in der Regel Eigentum eines Industrieunternehmens ist. Meist nur innerhalb von Hafengebieten, Industrieanlagen, Tagebauen."
-						short_description="A line only used for freight trains inside industrial areas or mines." />
+						de.display_value="Industriebahn"
+						short_description="A line only used for freight trains inside industrial areas or mines."
+						de.short_description="Eine Strecke, die ausschließlich dem Güterverkehr dient und in der Regel Eigentum eines Industrieunternehmens ist. Meist nur innerhalb von Hafengebieten, Industrieanlagen, Tagebauen." />
 					<list_entry
 						value="military"
-						de.display_value="Militärbahn"
 						display_value="military railway"
-						de.short_description="Eine Strecke, die ausschließlich dem Militärverkehr dient. Meistens Strecken zwischen normalen Bahnstrecken und Munitionsdepots oder Truppenübungsplätzen."
-						short_description="A line only used by military trains" />
+						de.display_value="Militärbahn"
+						short_description="A line only used by military trains"
+						de.short_description="Eine Strecke, die ausschließlich dem Militärverkehr dient. Meistens Strecken zwischen normalen Bahnstrecken und Munitionsdepots oder Truppenübungsplätzen." />
 					<!-- value=" " is a workaround, see https://josm.openstreetmap.de/ticket/12160 -->
 					<list_entry
 						value=" "
@@ -234,22 +234,23 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				<combo key="service" text="Purpose" de.text="Zweck" editable="false" >
 					<list_entry
 						value="yard"
-						de.display_value="Abstellgleis"
 						display_value="yard track"
-						de.short_description="Gleis, das nur zum Rangieren und Abstellen von Zügen verwendet wird. Keine Hauptsignale."
+						de.display_value="Abstellgleis"
 						short_description="Track which is only used for shunting and parking. No main signals."
+						de.short_description="Gleis, das nur zum Rangieren und Abstellen von Zügen verwendet wird. Keine Hauptsignale."
 						match="keyvalue" />
 					<list_entry
-						value="spur" de.display_value="Gleisanschluss/Ladegleis"
+						value="spur"
 						display_value="spur track"
-						de.short_description="Anschlussgleis zu einem Betrieb oder Ladegleis"
+						de.display_value="Gleisanschluss/Ladegleis"
 						short_description="Spur track to a factory or track where cars are loaded."
+						de.short_description="Anschlussgleis zu einem Betrieb oder Ladegleis"
 						match="keyvalue" />
 				</combo>
 			</item>
 		</group>
 		<group name="More Track Details" de.name="Weitere Gleisdetails" icon="rail.png">
-			<item de.name="Elektrifizierung" name="Electrification" type="way">
+			<item name="Electrification" de.name="Elektrifizierung" type="way">
 				<combo key="electrified"
 					text="electrified with"
 					de.text="elektrifiziert mit"
@@ -306,7 +307,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					<list_entry value="25" display_value="25 Hz" />
 				</combo>
 			</item>
-			<item de.name="Zugsicherung, Zugfunk" name="Train Protection, Radio" type="way">
+			<item name="Train Protection, Radio" de.name="Zugsicherung, Zugfunk" type="way">
 				<check key="railway:pzb"
 					text="PZB"
 					de.text="Punktförmige Zugbeeinflussung (PZB)"
@@ -354,7 +355,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					<list_entry value="possible" de.display_value="Falschfahrt möglich" short_description="Signaltechnisch besteht keine Möglichkeit einer Befahrung des Gegengleises. Es ist ein schriftlicher Befehl notwendig." />
 				</combo>
 			</item>
-			<item de.name="Höchstgeschwindigkeit" name="Speed Limit" type="way">
+			<item name="Speed Limit" de.name="Höchstgeschwindigkeit" type="way">
 				<combo key="maxspeed"
 					text="Maxspeed (kph)"
 					de.text="Höchstgeschwindigkeit (km/h)"
@@ -387,7 +388,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					<reference ref="maxspeed_values" />
 				</combo>
 			</item>
-			<item de.name="Oberbau, Trassierung" name="Track System, Line Routeing" type="way">
+			<item name="Track System, Line Routeing" de.name="Oberbau, Trassierung" type="way">
 				<check key="railway:ballastless"
 					text="Ballastless"
 					de.text="Feste Fahrbahn"
@@ -419,13 +420,13 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 			</item>
 		</group>
 		<separator />
-		<item de.name="Brücke" name="Bridge" icon="bridge-32.png" type="way">
+		<item name="Bridge" de.name="Brücke" icon="bridge-32.png" type="way">
 			<combo key="bridge"
 				text="Bridge type"
 				de.text="Brückentyp"
 				values="yes,cantilever,movable,trestle,viaduct"
-				de.display_values="Einfache Brücke,Auslegerbrücke,Bewegliche Brücke,Trestle-Brücke,Viadukt"
 				display_values="Non-specific bridge,Cantilever bridge,Movable bridge,Trestle bridge,Viaduct"
+				de.display_values="Einfache Brücke,Auslegerbrücke,Bewegliche Brücke,Trestle-Brücke,Viadukt"
 				values_sort="false"
 				default="yes"
 				/>
@@ -433,16 +434,16 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				text="Movable bridge"
 				de.text="Bewegliche Brücke"
 				values=" ,bascule,drawbridge,lift,swing"
-				de.display_values="nein,Klappbrücke,Zugbrücke,Hubbrücke,Drehbrücke"
 				display_values="no,Bascule bridge,Drawbridge,Lift bridge,Swing bridge"
+				de.display_values="nein,Klappbrücke,Zugbrücke,Hubbrücke,Drehbrücke"
 				values_sort="false"
 				/>
 			<combo key="bridge:structure"
 				text="Load-bearing architecture (for non-specific bridges)"
 				de.text="Tragwerkskonstruktion (bei einfachen Brücken)"
 				values="arch,beam,truss,suspension,cable-stayed"
-				de.display_values="Bogenbrücke,Balkenbrücke,Fachwerkbrücke,Hängebrücke mit festen Deck,Schrägseilbrücke"
 				display_values="Arch bridge,Beam bridge,Truss bridge,Suspension bridge,Cable-stayed bridge"
+				de.display_values="Bogenbrücke,Balkenbrücke,Fachwerkbrücke,Hängebrücke mit festen Deck,Schrägseilbrücke"
 				/>
 			<key key="layer"
 				value="1" />
@@ -465,7 +466,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				de.text="Wikidata-Datenobjekt"
 				/>
 		</item>
-		<item de.name="Tunnel" name="Tunnel" icon="tunnel-32.png" type="way">
+		<item name="Tunnel" de.name="Tunnel" icon="tunnel-32.png" type="way">
 			<key key="tunnel"
 				value="yes" />
 			<key key="layer"
@@ -489,7 +490,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				de.text="Wikidata-Datenobjekt"
 				/>
 		</item>
-        <item de.name="Lärmschutzwand" name="noise barrier" type="way">
+        <item name="noise barrier" de.name="Lärmschutzwand" type="way">
             <key key="barrier" 
                 value="wall" />
             <key key="wall" 
@@ -500,7 +501,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
                 />
         </item>
 		<separator />
-		<item de.name="Prellbock" name="Buffer Stop" icon="buffer_stop-32.png" type="node">
+		<item name="Buffer Stop" de.name="Prellbock" icon="buffer_stop-32.png" type="node">
 			<key key="railway"
 				value="buffer_stop" />
 			<key key="railway:signal:position"
@@ -509,20 +510,20 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				text="Direction"
 				de.text="Anzeigerichtung"
 				values="forward,backward"
-				de.display_values="In Wegrichtung,Entgegen Wegrichtung"
 				display_values="forward,backward"
+				de.display_values="In Wegrichtung,Entgegen Wegrichtung"
 				/>
 			<combo key="railway:signal:minor"
 				text="Exact type of signal"
 				de.text="Signaltyp"
 				values="DE-ESO:sh0,DE-ESO:sh2,DE-BOStrab:sh2,AT-V2:weiterfahrt_verboten"
-				de.display_values="Sh 0-Tafel (deutsche Voll-/Schmalspurbahn),Sh 2-Tafel (deutsche Voll-/Schmalspurbahn),Sh 2 (Straßen-/U-/Stadtbahn),Weiterfahrt verboten (Österreich)"
 				display_values="Sh 0 sign (German railway/German narrow gauge railway),Sh 2 sign (German railway/German narrow gauge railway),Sh 2 (tram/light rail/subway),Weiterfahrt verboten (Austria)"
+				de.display_values="Sh 0-Tafel (deutsche Voll-/Schmalspurbahn),Sh 2-Tafel (deutsche Voll-/Schmalspurbahn),Sh 2 (Straßen-/U-/Stadtbahn),Weiterfahrt verboten (Österreich)"
 				/>
 			<key key="railway:signal:minor:form"
 				value="sign" />
 		</item>
-		<item de.name="Weiche" name="Point" icon="de/switch.png" type="node">
+		<item name="Point" de.name="Weiche" icon="de/switch.png" type="node">
 			<label text="Point (BE), Switch (AE)"
 				de.text="Weiche" />
 			<space />
@@ -595,8 +596,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				/>
 		</item>
 		<item name="Railway Crossing" de.name="Kreuzung" type="node">
-			<label de.text="Kreuzung"
-				text="Two tracks cross each other without a switch" />
+			<label text="Two tracks cross each other without a switch"
+				de.text="Kreuzung" />
 			<space />
 			<key key="railway"
 				value="railway_crossing" />
@@ -629,15 +630,15 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				text="Signal"
 				de.text="Signal"
 				values="DE-ESO:sh,AT-V2:sperrsignal"
-				de.display_values="Deutschland (Voll-/Schmalspurbahn),Österreich"
-				display_values="Germany,Austria" />
+				display_values="Germany,Austria"
+				de.display_values="Deutschland (Voll-/Schmalspurbahn),Österreich" />
 			<combo key="railway:signal:minor:states"
 				text="Signal states"
 				de.text="Signalzustände"
 				delimiter="|"
 				values="DE-ESO:sh0;DE-ESO:sh1|DE-ESO:sh0;DE-ESO:wn7|AT-V2:weiterfahrt_verboten;AT-V2:weiterfahrt_erlaubt"
-				de.display_values="Sh 0/Sh 1 (Deutschland)|Sh 0/Wn 7 (ehem. Gsp 2, Deutschland)|Weiterfahrt verboten/erlaubt (Österreich)"
 				display_values="Sh 0/Sh 1 (Germany)|Sh 0/Wn 7 (former Gsp 2, Germany)|Weiterfahrt verboten/erlaubt (Austria)"
+				de.display_values="Sh 0/Sh 1 (Deutschland)|Sh 0/Wn 7 (ehem. Gsp 2, Deutschland)|Weiterfahrt verboten/erlaubt (Österreich)"
 				/>
 			<key key="railway:signal:minor:form"
 				value="semaphore" />
@@ -714,8 +715,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					text="Public transport?"
 					de.text="Öffentlicher Verkehr?"
 					values="station, "
-					de.display_values="ja,nein"
 					display_values="yes,no"
+					de.display_values="ja,nein"
 					/>
 				<text key="name" text="Name"
 					de.text="Name"
@@ -749,8 +750,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				<reference ref="ele" />
 			</item>
 			<item name="Halt" de.name="Haltepunkt/Haltestelle" type="node">
-				<label de.text="Haltepunkt/Haltestelle"
-					text="a small station without switches" />
+				<label text="a small station without switches"
+					de.text="Haltepunkt/Haltestelle" />
 				<label text="Is being mapped as a node inside the operating site. The node does not belong to a track."
 					de.text="Wird als Punkt in der Mitte der Betriebsstelle (nicht auf einem Gleis) erfasst." />
 				<space />
@@ -760,8 +761,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					text="Public transport?"
 					de.text="Öffentlicher Verkehr?"
 					values="station, "
-					de.display_values="ja,nein"
 					display_values="yes,no"
+					de.display_values="ja,nein"
 					/>
 				<text key="name" text="Name"
 					de.text="Name"
@@ -806,8 +807,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					text="Public transport?"
 					de.text="Öffentlicher Verkehr?"
 					values="station, "
-					de.display_values="ja,nein"
 					display_values="yes,no"
+					de.display_values="ja,nein"
 					/>
 				<text key="name" text="Name"
 					de.text="Name"
@@ -982,8 +983,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					text="Public transport?"
 					de.text="Öffentlicher Verkehr?"
 					values="stop_position, "
-					de.display_values="ja,nein"
 					display_values="yes,no"
+					de.display_values="ja,nein"
 					/>
 				<key key="railway"
 					value="stop" />
@@ -1052,15 +1053,15 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 					text="Public transport?"
 					de.text="Öffentlicher Verkehr?"
 					values="public_transport, "
-					de.display_values="ja,nein"
 					display_values="yes,no"
+					de.display_values="ja,nein"
 					/>
 				<combo key="public_transport"
 					text="Public transport?"
 					de.text="Öffentlicher Verkehr?"
 					values="stop_area, "
-					de.display_values="ja,nein"
 					display_values="yes,no"
+					de.display_values="ja,nein"
 					/>
 				<text key="name"
 					text="Name"
@@ -1219,8 +1220,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 			<combo key="crossing:barrier"
 				text="Barriers" de.text="Schranken"
 				values="half,double_half,full,gate,yes,no"
-				de.display_values="Halbschranke,Vollabschluss ('doppelte Halbschranke'),Vollschranke,Tore (England),Beschrankt,Unbeschrankt"
 				display_values="half boom gate,double half boom gate,full boom gate,gates (turnable),yes,no"
+				de.display_values="Halbschranke,Vollabschluss ('doppelte Halbschranke'),Vollschranke,Tore (England),Beschrankt,Unbeschrankt"
 				/>
 			<check key="crossing:light"
 				text="Lights"
@@ -1261,7 +1262,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				/>
 		</item>
 		<item name="Little crossing for pedestrians" de.name="Reisendenübergang" type="node">
-			<label de.text="Reisendenübergang (Übergänge für Reisende/Fußgänger ohne Andreaskreuz" text="Crossing for pedestrians (less secure than common level crossings)" />
+			<label text="Crossing for pedestrians (less secure than common level crossings)" de.text="Reisendenübergang (Übergänge für Reisende/Fußgänger ohne Andreaskreuz" />
 			<space />
 			<key key="railway"
 				value="crossing" />
@@ -1281,8 +1282,8 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 			<combo key="crossing:barrier"
 				text="Barriers" de.text="Schranken"
 				values="half,double_half,full,gate,yes,no"
-				de.display_values="Halbschranke,Vollabschluss ('doppelte Halbschranke'),Vollschranke,Tore (England),Beschrankt,Unbeschrankt"
 				display_values="half boom gate,double half boom gate,full boom gate,gates (turnable),yes,no"
+				de.display_values="Halbschranke,Vollabschluss ('doppelte Halbschranke'),Vollschranke,Tore (England),Beschrankt,Unbeschrankt"
 				/>
 			<check key="crossing:light"
 				text="Lights"
@@ -1506,14 +1507,14 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 			<key key="railway"
 				value="radio" />
 			<label
-				de.text="Ein Mast ist ein einzelner Beton- oder Stahlfachwerkmast."
-				text="A mast is often a single mast of concrete or steel framework." />
+				text="A mast is often a single mast of concrete or steel framework."
+				de.text="Ein Mast ist ein einzelner Beton- oder Stahlfachwerkmast." />
 			<label
-				de.text="Ein Turm ist meist innen begehbar oder besteigbar und bietet Plattformen,"
-				text="A tower is accessible inside (stairs inside) and provides platforms," />
+				text="A tower is accessible inside (stairs inside) and provides platforms,"
+				de.text="Ein Turm ist meist innen begehbar oder besteigbar und bietet Plattformen," />
 			<label
-				de.text="ein Mast besitzt lediglich eine Außenleiter bzw. Sprossenkonstruktion, ggf. kleine Arbeitsplattformen."
-				text="whereas a mast only offers ladder steps to climb it." />
+				text="whereas a mast only offers ladder steps to climb it."
+				de.text="ein Mast besitzt lediglich eine Außenleiter bzw. Sprossenkonstruktion, ggf. kleine Arbeitsplattformen." />
 			<combo key="man_made"
 				text="mast/tower"
 				de.text="Mast/Turm"
