@@ -11,7 +11,7 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 -->
 
 
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="OpenRailwayMap" version="2016-04-18" shortdescription="OpenRailwayMap Infrastructure DE+AT" description="Preset to tag German and Austrian railway infrastructure">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="OpenRailwayMap" version="2022-09-24" shortdescription="OpenRailwayMap Infrastructure DE+AT" description="Preset to tag German and Austrian railway infrastructure">
 	<chunk id="maxspeed_values">
 		<list_entry value="10" />
 		<list_entry value="20" />
